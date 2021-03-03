@@ -1,0 +1,62 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\USER\\Desktop\\Practicaapp:assembleapp",
+			"script": "app:assemble",
+			"description": "Assembles the outputs of this project.",
+			"group": "build",
+			"project": "app",
+			"buildFile": "C:\\Users\\USER\\Desktop\\Practica\\app\\build.gradle",
+			"rootProject": "Practica",
+			"projectFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"workspaceFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:assemble"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\USER\\Desktop\\Practicaapp:testapp",
+			"script": "app:test",
+			"description": "Runs the unit tests.",
+			"group": "test",
+			"project": "app",
+			"buildFile": "C:\\Users\\USER\\Desktop\\Practica\\app\\build.gradle",
+			"rootProject": "Practica",
+			"projectFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"workspaceFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:test"
+		},
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\USER\\Desktop\\Practicaapp:processTestResourcesapp",
+			"script": "app:processTestResources",
+			"description": "Processes test resources.",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"project": "app",
+			"buildFile": "C:\\Users\\USER\\Desktop\\Practica\\app\\build.gradle",
+			"rootProject": "Practica",
+			"projectFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"workspaceFolder": "c:\\Users\\USER\\Desktop\\Practica",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:processTestResources"
+		}
+	]
+}
